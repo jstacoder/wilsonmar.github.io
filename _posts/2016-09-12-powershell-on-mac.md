@@ -580,7 +580,7 @@ $response = Invoke-RestMethod 'http://example.com/api/people/1' -Headers $header
    Sort a hash tables using the GetEnumertor():
 
    <pre>
-   $source.GetEnumerator() | Sort name | select -first 5
+   $source.GetEnumerator() | Sort-Object name | select -first 5
    </pre>
 
 
